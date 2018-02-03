@@ -401,9 +401,6 @@ PRODUCT_PROPERTY_OVERRIDES += vendor.pasr.activemode.enabled=true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qspm.enable=true
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so
-
 ############### RIL ###############
 # Vendor property to enable advanced network scanning
 PRODUCT_PROPERTY_OVERRIDES += \
