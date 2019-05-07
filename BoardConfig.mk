@@ -19,6 +19,20 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 DEVICE_PATH := device/motorola/nio
 
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    vendor_boot \
+    dtbo \
+    product \
+    system \
+    system_ext \
+    vendor \
+    vbmeta \
+    vbmeta_system
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a-branchprot
