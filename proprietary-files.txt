@@ -101,8 +101,8 @@ vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
 
 # Bluetooth (aptX)
-lib64/libaptX_encoder.so
-lib64/libaptXHD_encoder.so
+system/lib64/libaptX_encoder.so
+system/lib64/libaptXHD_encoder.so
 
 # Camera
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
@@ -734,13 +734,13 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
 # Radio
-etc/permissions/privapp-permissions-qti.xml
 -product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
 product/etc/permissions/UimGbaManager.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 product/framework/uimgbalibrary.jar
 product/framework/uimgbamanagerlibrary.jar
+system/etc/permissions/privapp-permissions-qti.xml
 -system_ext/app/atfwd/atfwd.apk
 -system_ext/app/datastatusnotification/datastatusnotification.apk
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1212,7 +1212,7 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # WiFi Display - from lemonadep - SKQ1.210821.001
--framework/WfdCommon.jar|9f431b56d7f38c71089333008695dd5f717e5034
+-system/framework/WfdCommon.jar|9f431b56d7f38c71089333008695dd5f717e5034
 -system_ext/priv-app/WfdService/WfdService.apk|381e93aaa1943526cbeb9957656b5a0622b589d6
 
 # WiFi Display
