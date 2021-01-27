@@ -20,7 +20,7 @@ cc_binary {
     vintf_fragments: ["aidl/android.hardware.power-service.motokona.xml"],
     vendor: true,
     shared_libs: [
-        "android.hardware.power-ndk_platform",
+        "android.hardware.power-V1-ndk_platform",
         "libbase",
         "libbinder_ndk",
         "libcutils",
@@ -28,7 +28,7 @@ cc_binary {
         "liblog",
         "libperfmgr",
         "libutils",
-        "pixel-power-ext-ndk_platform",
+        "pixel-power-ext-V1-ndk_platform",
     ],
     srcs: [
         "aidl/service.cpp",
