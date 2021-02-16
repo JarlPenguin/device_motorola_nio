@@ -59,6 +59,9 @@
 # Motobox
 /(vendor|system/vendor)/bin/motobox                     u:object_r:vendor_motobox_exec:s0
 
+# Power
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.motokona-libperfmgr	u:object_r:hal_power_default_exec:s0
+
 #poweropt-service
 /(vendor|system/vendor)/bin/poweropt-service            u:object_r:vendor_poweroptservice_exec:s0
 
