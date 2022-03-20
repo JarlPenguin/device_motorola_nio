@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from nio device
 $(call inherit-product, device/motorola/nio/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_nio
+PRODUCT_NAME := aosp_nio
 PRODUCT_DEVICE := nio
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := XT2125-4
@@ -36,8 +36,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2520
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build info
 BUILD_FINGERPRINT := "motorola/nio_retcn/nio:11/RRN31.Q3-1-11-6/f81cc:user/release-keys"
