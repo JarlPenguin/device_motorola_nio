@@ -1,0 +1,19 @@
+[
+  {
+    "remote": "pixel",
+    "repository": "hardware_motorola",
+    "target_path": "hardware/motorola",
+    "branch": "twelve"
+  },
+  {
+    "repository": "kernel_motorola_sm8250",
+    "target_path": "kernel/motorola/sm8250",
+    "branch": "twelve"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_motorola_nio",
+    "target_path": "vendor/motorola/nio",
+    "branch": "twelve"
+  }
+]
