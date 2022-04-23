@@ -12,6 +12,12 @@
   },
   {
     "remote": "pixel-devices-blobs",
+    "repository": "packages_apps_MotCamera3",
+    "target_path": "packages/apps/MotCamera3",
+    "branch": "twelve-nio"
+  },
+  {
+    "remote": "pixel-devices-blobs",
     "repository": "vendor_motorola_nio",
     "target_path": "vendor/motorola/nio",
     "branch": "twelve"
