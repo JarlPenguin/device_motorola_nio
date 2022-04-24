@@ -284,6 +284,14 @@
       "ResetOnInit": true
     },
     {
+      "Name": "DoubleTapToWakeEnable",
+      "Path": "/sys/class/touchscreen/NVT-ts/double_click",
+      "Values": [
+        "1",
+        "0"
+      ],
+    },
+    {
       "Name": "PMQoSCpuDmaLatency",
       "Path": "/dev/cpu_dma_latency",
       "Values": [
