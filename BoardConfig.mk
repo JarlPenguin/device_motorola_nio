@@ -66,8 +66,6 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := vendor/lineageos_nio_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/sm8250
 TARGET_KERNEL_VERSION := 4.19
-#KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/arm64-gcc/bin
-#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
 
 # Kernel modules - Audio
 TARGET_MODULE_ALIASES += \
@@ -152,7 +150,6 @@ TARGET_USES_ION := true
 
 # Partitions
 BOARD_USES_RECOVERY_AS_BOOT := true
-TARGET_NO_RECOVERY := true
 
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
