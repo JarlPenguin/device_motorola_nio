@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResNio \
     SettingsResNio \
-    SystemUIResNio
+    SystemUIResNio \
+    WifiResNio
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
