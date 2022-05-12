@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "WifiResNio",
+    sdk_version: "current",
+    vendor: true
+}
