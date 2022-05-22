@@ -159,6 +159,12 @@ vendor/firmware/CAMERA_ICP.elf
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_1080x2520_670.xml
 
+# Hotword - from nio - S1RT32.41-20-16
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|b90f69b539d0bffe660c8a44a0138baed8a3a7df
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|057510752182b52a8f702222dafe2f37a87d2da9
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
+
 # Thermal
 vendor/etc/thermal-engine-nio.conf
 
