@@ -11,8 +11,8 @@
     "branch": "twelve"
   },
   {
-    "remote": "pixel-devices-blobs",
-    "repository": "packages_apps_MotCamera3",
+    "remote": "gitlab",
+    "repository": "JarlPenguin/packages_apps_MotCamera3",
     "target_path": "packages/apps/MotCamera3",
     "branch": "twelve-nio"
   },
