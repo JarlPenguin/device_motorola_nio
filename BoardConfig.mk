@@ -12,7 +12,7 @@ DEVICE_PATH := device/motorola/nio
 TARGET_BOOTLOADER_BOARD_NAME := nio
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineageos_nio_defconfig
