@@ -39,9 +39,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build info
-BUILD_FINGERPRINT := "motorola/nio_retcn/nio:12/S1RN32.55-16-1/cd155e-548707:user/release-keys"
+BUILD_FINGERPRINT := "motorola/nio_retcn/nio:12/S1RN32.55-16-2/32b4dd-548707:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nio_retcn \
-    PRIVATE_BUILD_DESC="nio_retcn-user 12 S1RN32.55-16-1 cd155e-548707 release-keys"
+    PRIVATE_BUILD_DESC="nio_retcn-user 12 S1RN32.55-16-2 32b4dd-548707 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
