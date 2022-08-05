@@ -134,8 +134,7 @@ PRODUCT_PACKAGES += \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
-    libaudio-resampler \
-    sound_trigger.primary.kona
+    libaudio-resampler
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
