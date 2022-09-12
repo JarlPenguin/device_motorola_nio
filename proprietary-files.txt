@@ -553,9 +553,6 @@ vendor/lib64/libqcbor.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/libspcom.so
 
-# Listen - from nio - S1RT32.41-20-16
-vendor/lib/hw/sound_trigger.primary.kona.so|74a8f0f493cde3f4905c89c9a7647477edc3bbcc
-
 # Listen
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
