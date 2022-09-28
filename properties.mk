@@ -288,7 +288,8 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.fflag.override.settings_bluetooth_hear
 # Camera {{{
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
-    persist.vendor.camera.physical.num=5
+    persist.vendor.camera.physical.num=5 \
+    persist.vendor.camera.privapp.list=com.motorola.camera3
 # }}}
 
 # Dalvik {{{
