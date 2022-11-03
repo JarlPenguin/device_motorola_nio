@@ -14,6 +14,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResNio \
+    SettingsResNio \
     SystemUIResNio \
     WifiResNio
 
